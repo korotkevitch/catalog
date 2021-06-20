@@ -3,6 +3,7 @@ from django.core.mail import send_mail as django_send_mail
 from django.forms import ModelForm
 from .models import Contact, FeedbackPhone
 
+
 class UserForm(ModelForm):
     class Meta:
         model = Contact
