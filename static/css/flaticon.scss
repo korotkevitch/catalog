@@ -1,0 +1,205 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?6752877f2e359667ba1e4010dc008aa3") format("truetype"),
+url("./flaticon.woff?6752877f2e359667ba1e4010dc008aa3") format("woff"),
+url("./flaticon.woff2?6752877f2e359667ba1e4010dc008aa3") format("woff2"),
+url("./flaticon.eot?6752877f2e359667ba1e4010dc008aa3#iefix") format("embedded-opentype"),
+url("./flaticon.svg?6752877f2e359667ba1e4010dc008aa3#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "handshake": "\f101",
+    "candle": "\f102",
+    "funeral": "\f103",
+    "flower": "\f104",
+    "funeral-1": "\f105",
+    "ceremony": "\f106",
+    "contract": "\f107",
+    "gravestone": "\f108",
+    "coffin": "\f109",
+    "flowers": "\f10a",
+    "funeral-2": "\f10b",
+    "coffin-1": "\f10c",
+    "funeral-3": "\f10d",
+    "funeral-4": "\f10e",
+    "hearse": "\f10f",
+    "graveyard": "\f110",
+    "photo-frame": "\f111",
+    "coffin-2": "\f112",
+    "ashes": "\f113",
+    "hearse-1": "\f114",
+    "flower-bouquet": "\f115",
+    "funeral-5": "\f116",
+    "funeral-6": "\f117",
+    "ashes-1": "\f118",
+    "paper": "\f119",
+    "morgue": "\f11a",
+    "deceased": "\f11b",
+    "funeral-7": "\f11c",
+    "angel": "\f11d",
+    "cremation": "\f11e",
+    "hearse-2": "\f11f",
+    "casket": "\f120",
+    "cemetery": "\f121",
+    "byzantine-cross": "\f122",
+    "altar": "\f123",
+    "candle-1": "\f124",
+    "candles": "\f125",
+    "cross": "\f126",
+    "cross-1": "\f127",
+    "crosses": "\f128",
+    "wreath": "\f129",
+    "wreath-1": "\f12a",
+    "shirts": "\f12b",
+    "suit": "\f12c",
+    "suit-1": "\f12d",
+);
+
+.flaticon-handshake:before {
+    content: map-get($flaticon-map, "handshake");
+}
+.flaticon-candle:before {
+    content: map-get($flaticon-map, "candle");
+}
+.flaticon-funeral:before {
+    content: map-get($flaticon-map, "funeral");
+}
+.flaticon-flower:before {
+    content: map-get($flaticon-map, "flower");
+}
+.flaticon-funeral-1:before {
+    content: map-get($flaticon-map, "funeral-1");
+}
+.flaticon-ceremony:before {
+    content: map-get($flaticon-map, "ceremony");
+}
+.flaticon-contract:before {
+    content: map-get($flaticon-map, "contract");
+}
+.flaticon-gravestone:before {
+    content: map-get($flaticon-map, "gravestone");
+}
+.flaticon-coffin:before {
+    content: map-get($flaticon-map, "coffin");
+}
+.flaticon-flowers:before {
+    content: map-get($flaticon-map, "flowers");
+}
+.flaticon-funeral-2:before {
+    content: map-get($flaticon-map, "funeral-2");
+}
+.flaticon-coffin-1:before {
+    content: map-get($flaticon-map, "coffin-1");
+}
+.flaticon-funeral-3:before {
+    content: map-get($flaticon-map, "funeral-3");
+}
+.flaticon-funeral-4:before {
+    content: map-get($flaticon-map, "funeral-4");
+}
+.flaticon-hearse:before {
+    content: map-get($flaticon-map, "hearse");
+}
+.flaticon-graveyard:before {
+    content: map-get($flaticon-map, "graveyard");
+}
+.flaticon-photo-frame:before {
+    content: map-get($flaticon-map, "photo-frame");
+}
+.flaticon-coffin-2:before {
+    content: map-get($flaticon-map, "coffin-2");
+}
+.flaticon-ashes:before {
+    content: map-get($flaticon-map, "ashes");
+}
+.flaticon-hearse-1:before {
+    content: map-get($flaticon-map, "hearse-1");
+}
+.flaticon-flower-bouquet:before {
+    content: map-get($flaticon-map, "flower-bouquet");
+}
+.flaticon-funeral-5:before {
+    content: map-get($flaticon-map, "funeral-5");
+}
+.flaticon-funeral-6:before {
+    content: map-get($flaticon-map, "funeral-6");
+}
+.flaticon-ashes-1:before {
+    content: map-get($flaticon-map, "ashes-1");
+}
+.flaticon-paper:before {
+    content: map-get($flaticon-map, "paper");
+}
+.flaticon-morgue:before {
+    content: map-get($flaticon-map, "morgue");
+}
+.flaticon-deceased:before {
+    content: map-get($flaticon-map, "deceased");
+}
+.flaticon-funeral-7:before {
+    content: map-get($flaticon-map, "funeral-7");
+}
+.flaticon-angel:before {
+    content: map-get($flaticon-map, "angel");
+}
+.flaticon-cremation:before {
+    content: map-get($flaticon-map, "cremation");
+}
+.flaticon-hearse-2:before {
+    content: map-get($flaticon-map, "hearse-2");
+}
+.flaticon-casket:before {
+    content: map-get($flaticon-map, "casket");
+}
+.flaticon-cemetery:before {
+    content: map-get($flaticon-map, "cemetery");
+}
+.flaticon-byzantine-cross:before {
+    content: map-get($flaticon-map, "byzantine-cross");
+}
+.flaticon-altar:before {
+    content: map-get($flaticon-map, "altar");
+}
+.flaticon-candle-1:before {
+    content: map-get($flaticon-map, "candle-1");
+}
+.flaticon-candles:before {
+    content: map-get($flaticon-map, "candles");
+}
+.flaticon-cross:before {
+    content: map-get($flaticon-map, "cross");
+}
+.flaticon-cross-1:before {
+    content: map-get($flaticon-map, "cross-1");
+}
+.flaticon-crosses:before {
+    content: map-get($flaticon-map, "crosses");
+}
+.flaticon-wreath:before {
+    content: map-get($flaticon-map, "wreath");
+}
+.flaticon-wreath-1:before {
+    content: map-get($flaticon-map, "wreath-1");
+}
+.flaticon-shirts:before {
+    content: map-get($flaticon-map, "shirts");
+}
+.flaticon-suit:before {
+    content: map-get($flaticon-map, "suit");
+}
+.flaticon-suit-1:before {
+    content: map-get($flaticon-map, "suit-1");
+}
